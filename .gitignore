@@ -1,0 +1,25 @@
+# Ignore agentic_analyst folder
+agentic_analyst/
+__pycache__
+
+# Ignore node_modules folder
+node_modules/
+frontend/node_modules
+frontend/.next
+
+# Ignore React Frontend folder (assuming the name of the folder is 'React Frontend')
+React Frontend/
+
+Notebooks/
+
+.DS_Store
+instance/   
+
+
+flask_app/_pycache__
+flask_app/instance
+flask_app/*.env
+*.env
+__pycache__
+
+venv
