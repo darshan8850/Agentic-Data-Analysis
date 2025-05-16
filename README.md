@@ -2,6 +2,7 @@
 
 # Agentic-Analyst 
 
+![Screenshot (78)](https://github.com/user-attachments/assets/a8dce57d-3fac-40c8-87c2-e85c8c8968ef)
 
 ### Key Features:
 
