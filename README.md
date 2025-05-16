@@ -67,7 +67,7 @@ Replace `your_openai_api_key_here` with your actual OpenAI API key.
 Start the Streamlit app using the following command:
 
 ```bash
-streamlit run new_frontend.py
+streamlit run streamlit_app.py
 ```
 
 

@@ -1,5 +1,5 @@
 import dspy
-# import streamlit as st
+import streamlit as st
 import memory_agents as m
 
 # Contains the DSPy agents

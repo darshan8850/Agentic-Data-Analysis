@@ -127,7 +127,12 @@ st.markdown("""
 agent_names= [data_viz_agent,sk_learn_agent,statistical_analytics_agent,preprocessing_agent]
 # Configure the LLM to be ChatGPT-4o-mini
 # You can change this to use your particular choice of LLM
-dspy.configure(lm = dspy.OpenAI(model='gpt-4o-mini',api_key=os.environ['OPENAI_API_KEY'], max_tokens=16384))
+@st.cache_resource
+def configure_dspy():
+    return dspy.configure(lm=dspy.LM(model="gpt-4o-mini", api_key=os.getenv("OPENAI_API_KEY")))
+
+# Call it at the beginning
+configure_dspy()
 
 # dspy.configure(lm =dspy.GROQ(model='llama3-70b-8192', api_key =os.environ.get("GROQ_API_KEY"),max_tokens=10000 ) )
 
