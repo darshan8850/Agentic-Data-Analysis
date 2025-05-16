@@ -14,3 +14,9 @@ flask
 flask-cors
 Flask-SQLAlchemy
 python-dotenv
+fastapi
+uvicorn
+fastapi-sqlalchemy
+sqlalchemy 
+python-jose 
+passlib[bcrypt]
